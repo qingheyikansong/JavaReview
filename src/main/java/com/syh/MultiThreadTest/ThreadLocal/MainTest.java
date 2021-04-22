@@ -35,6 +35,8 @@ public class MainTest {
     }
     /**
      * 测试当前线程ThreadLocal的id是否会变化
+     *
+     *
      */
     private static void incrementSameThreadId(){
         try {
