@@ -20,7 +20,7 @@ public class MainTest {
 //                incrementSameThreadId();
 //            }
 //        }).start();
-        ThreadLocal threadLocal = new ThreadLocal();
+        final ThreadLocal threadLocal = new ThreadLocal();
         threadLocal.set("1");
         
         if(threadLocal.get()!=null){
